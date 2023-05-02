@@ -1,6 +1,6 @@
 ﻿
-##Credit Risk Analysis 
-##Using Logistic Regression Model and ROS Method
+## Credit Risk Analysis 
+##       --Using Logistic Regression Model and ROS Method
 
 
 ## Overview and purpose
@@ -42,7 +42,7 @@ Therefore, due to the imbalanced dataset, we are considering to use ROS method t
 • The cost of misclassifying a healthy loan as high-risk is lower than the cost of missing a high-risk loan, so this improvement is meaningful.
 
 
-#Conclusion:
+## Conclusion:
 
 
 To summarize, this project aims to use machine learning models to predict and compare high-risk and healthy loans based on a lending dataset. Both models perform well in identifying healthy loans, but model 2, the logistic regression model trained on resampled data, has a clear advantage in detecting class “1” high-risk loans. Model 2 has a higher recall score and a higher f1-score for high-risk loan, which means it can correctly classify most of the high-risk instances and reduce the false positives. Moreover, the cost of misclassifying a healthy loan as high-risk is lower than the cost of missing a high-risk loan, so it is more prudent to have a model that can accurately identify high-risk instances.
