@@ -20,9 +20,10 @@ Our analysis steps are as follows: First, the dataset was split into training an
 The findings of model 1 are as below:
 
 • The analysis shows that the model 1 has an high balanced accuracy  score of 0.944.
- ![Balanced Accuracy Score-Model 1](https://github.com/wei3chen2/credit-risk-classification/blob/main/Balanced%20Accuracy%20Score-Model%201.png)      
-
+   
 According to the below classification report of model 1:
+
+ ![Classification Report-Model 1](https://github.com/wei3chen2/credit-risk-classification/blob/main/Classification%20Report-Model%201.png) 
 
 • The model has high accuracy of 0.99 for both classes.
 • The model has a slightly lower precision and recall for class 1 (high risk loan) than for class 0 (healthy loan), which means it has more false positives and false negatives for class 1. And the model has a high f1-score for both classes, which means it has a good balance between precision and recall. 
@@ -35,9 +36,10 @@ Therefore, due to the imbalanced dataset, we are considering to use ROS method t
 • After resampling, we obtain a balanced dataset with equal counts for both classes. 
 • The balanced accuracy score is increased to a higher level of 0.995.
 
+ ![Classification Report_Model 2_Resampled Data](https://github.com/wei3chen2/credit-risk-classification/blob/main/Classification%20Report_Model%202_Resampled%20Data.png) 
 
 
-• The below classification report shows that with resampled data, the new model has a high accuracy of 1.00 in classification for both classes. 
+• The above classification report shows that with resampled data, the new model has a high accuracy of 1.00 in classification for both classes. 
 • The model has the same precision for class 1 (0.87) as before, but a higher recall (1.00 vs 0.89), and higher f1-score(0.93 vs 0.88) for class 1, which means it performs better on predicting a high risk loan. 
 • The cost of misclassifying a healthy loan as high-risk is lower than the cost of missing a high-risk loan, so this improvement is meaningful.
 
