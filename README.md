@@ -5,7 +5,7 @@
 
 ## Overview and purpose
 
-Credit risk analysis is a process of predicting and assessing the probability of loss when lending money to a borrower. The purpose of this project is to use different machine learning models to conduct risk analysis, identify healthy loans and high-risk loans, and then compare their performance and select the best model to help a peer-to-peer lending service company identify the creditworthiness of borrowers. The lending dataset provided is split, resampled, and tested. Logistic regression model is implemented and random over sampler (ROS) method is used to optimize the model.
+Credit risk analysis is a process of predicting and assessing the probability of loss when lending money to a borrower. The purpose of this project is to use different machine learning models to conduct risk analysis,  compare their performance and then select the best one to help a peer-to-peer lending service company identify the creditworthiness of borrowers. The lending dataset provided is split, resampled, and tested. Logistic regression model is implemented and random over sampler (ROS) method is used to optimize the model.
 
 
 ## Results
